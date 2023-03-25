@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Arjun P</title>
+    <meta name="description" content="Arjun P is a software engineer." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <style>
+      /* light mode */
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg-color: #fcfcfc;
+          --primary-color: rgba(0, 0, 0, 0.75);
+          --link-color: #007ae5;
+          --link-hover-color: #005fb3;
+          --link-underline-color: #186bb3;
+          --link-underline-hover-color: #155288;
+          --nav-hover-color: rgba(0, 0, 0, 0.9);
+          --heading-color: rgba(0, 0, 0, 1);
+        }
+      }
+
+      /* dark mode */
+      @media (prefers-color-scheme: dark) {
+        ::selection {
+          color: black;
+        }
+
+        :root {
+          --bg-color: #000000;
+          --primary-color: rgba(255, 255, 255, 0.75);
+          --link-color: #4d90dd;
+          --link-hover-color: #59a6ff;
+          --link-underline-color: #2966ac;
+          --link-underline-hover-color: #3482db;
+          --nav-hover-color: rgba(255, 255, 255, 0.9);
+          --heading-color: rgba(255, 255, 255, 1);
+        }
+
+        hr {
+          border-color: rgba(255, 255, 255, 0.2);
+        }
+      }
+
+      body {
+        background-color: var(--bg-color);
+
+        margin: auto;
+
+        max-width: 38rem;
+        min-height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+
+        font-family: system-ui, "SF Pro Text", "Segoe UI", Roboto, "Noto Sans",
+          "Helvetica Neue", Helvetica, Oxygen-Sans, Cantarell, Ubuntu, Arial,
+          "Nimbus Sans L", "Liberation Sans", FreeSans, sans-serif,
+          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      }
+
+      header {
+        flex: 1;
+        margin-bottom: 1em;
+      }
+
+      footer {
+        padding-bottom: 1em;
+      }
+
+      a {
+        transition: all 0.25s ease-in-out;
+        text-underline-offset: 0.25rem;
+
+        color: var(--link-color);
+        text-decoration-color: var(--link-underline-color);
+      }
+
+      a:hover {
+        color: var(--link-hover-color);
+        text-decoration-color: var(--link-underline-hover-color);
+      }
+
+      dd:not(:last-child) {
+        margin-bottom: 1em;
+      }
+
+      nav a {
+        margin-right: 0.5em;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      nav a:hover {
+        color: var(--nav-hover-color);
+      }
+
+      body,
+      nav a {
+        color: var(--primary-color);
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        color: var(--heading-color);
+      }
+
+      body > header > div#headline {
+        margin-top: 4rem;
+      }
+
+      img#avatar {
+        border-radius: 5px;
+      }
+    </style>
+
+    <meta name="theme-color" content="#c0c0c0" />
+  </head>
+
+  <body>
+    <header>
+      <div id="headline">
+        <img
+          id="avatar"
+          src="img/profile-picture.png"
+          alt="A profile picture placeholder image."
+          width="150"
+        />
+        <h1>Arjun P</h1>
+      </div>
+      <nav>
+        <a href="mailto:ap881514@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/aparme/">LinkedIn</a>
+        <a href="https://github.com/arjpar">GitHub</a>
+        <a href="https://read.cv/arjunp">Résumé/CV</a>
+        <a href="https://arjun.bearblog.dev">Blog</a>
+      </nav>
+      <hr />
+    </header>
+
+    <footer>
+      <hr />
+      <div>
+        <p>© Copyright 2022- Arjun P</p>
+        <p>
+          The
+          <a href="https://github.com/arjpar/site">code for this site</a> is
+          licensed under the
+          <a href="https://gist.github.com/arjpar/2dfaf0b7975008aae472346d0f93f958"
+            >Sustainable Use License</a
+          >.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

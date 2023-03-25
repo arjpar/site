@@ -1,0 +1,14 @@
+{
+  "short_name": "Arjun's WWW Site",
+  "name": "Arjun's WWW Site",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#c0c0c0",
+  "theme_color": "#c0c0c0"
+}
